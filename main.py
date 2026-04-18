@@ -13,7 +13,12 @@
 # avto1 = avto_info("GM", "Malibu", "Qora", "avtomat", 2020,40000)
 # info_print(avto1)
 
-# import math
+import math
 
-# x=400
-# print(math.sqrt(x))
+x=400
+print(math.sqrt(x))
+
+print(pow(5,5))
+
+from math import pi
+print(pi)
