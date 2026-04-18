@@ -12,3 +12,8 @@
 
 # avto1 = avto_info("GM", "Malibu", "Qora", "avtomat", 2020,40000)
 # info_print(avto1)
+
+# import math
+
+# x=400
+# print(math.sqrt(x))
