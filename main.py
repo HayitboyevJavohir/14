@@ -1,4 +1,6 @@
-# import avto_info_mod 
+# import avto_info_mod as aim
+
+from avto_info_mod import avto_info, info_print, PI, car
 
 # avto1 = avto_info_mod.avto_info("GM", "Malibu", "Qora", "avtomat", 2020,40000)
 # avto_info_mod.info_print(avto1)
@@ -13,15 +15,8 @@
 # avto1 = avto_info("GM", "Malibu", "Qora", "avtomat", 2020,40000)
 # info_print(avto1)
 
-import math
+avto1 = avto_info("GM", "Malibu", "Qora", "avtomat", 2020,40000)
 
-x=400
-print(math.sqrt(x))
+info_print(avto1)
 
-print(pow(5,5))
-
-from math import pi
-print(pi)
-
-print(math.log2(8))
-print(math.log10(100))
+print(car)
